@@ -8,7 +8,12 @@
 # this machine's public IP, then replace ":80" below with your
 # domain name.
 
-:80 {
+{
+  default_bind 10.0.0.220
+  email cmoates@gmail.com
+}
+
+caddy.moat.es {
 	# Set this path to your site's directory.
 	root * /usr/share/caddy
 
